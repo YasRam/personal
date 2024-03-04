@@ -58,3 +58,8 @@ background-color: #e6e6e6;
     width: 60%;
     margin: auto;
 }
+.bg-newdark{
+    border-radius: 10px;
+    background-color: #323232;
+    overflow: hidden;
+}
