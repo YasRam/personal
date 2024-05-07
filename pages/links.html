@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/linksStyle.css">
+    <title>my contacts</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="#">YasRam</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#course">course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">aboutme</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#follow-me">follow me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/engMaterial.html">Eng Sites</a>
+                    </li>
+                    <li class="nav-item w-auto">
+                        <a class="nav-link fw-bold border border-2 rounded-pill hire-me" href="#">Hire me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container text-center my-5 justify-content-center align-items-center vh-100">
+        <div class="w-25 m-auto">
+            <img src="../img/main/esl-lab.png" alt="" class="border rounded-circle w-100">
+        </div>
+
+        <h1 class="my-3">Elnouby</h1>
+        <h4 class="my-2">@YasRam</h3>
+
+            <div class="w-75 m-auto " id="myLinks">
+                <a href="" onclick="console.log('face');"
+                    class="text-decoration-none text-white fw-bold link border border-2 p-3 d-inline-block w-100 rounded-pill my-2 d-flex justify-content-between">
+                    <i class="fa-brands fa-facebook fa-xl px-1 "></i>
+                    Facebook
+                    <div onclick="console.log('copy');">
+
+                        <i class="fa-solid fa-file-contract fa-xl"></i>
+                        <i class="fa-solid fa-file-circle-check fa-xl d-none"></i>
+                    </div>
+                </a>
+
+                <div class="fw-bold link border border-2 p-3 rounded-pill d-flex justify-content-between facebook">
+                    <a href="Facebook"
+                        class="text-decoration-none text-white w-100 text-start d-flex">
+                        <i class="fa-brands fa-facebook fa-xl px-1 "></i>
+                        <div class="w-100 text-center ">
+                            Facebook
+                        </div>
+
+                    </a>
+                    <div class="copy" data-link="${links[i].user}">
+                        <i class="fa-solid fa-file-contract fa-xl"></i>
+                        <i class="fa-solid fa-file-circle-check fa-xl d-none"></i>
+                    </div>
+                </div>
+
+            </div>
+    </header>
+
+
+
+    <script src="../js/all.min.js"></script>
+    <script src="../js/jquery-3.7.1.slim.min.map"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/linkScript.js"></script>
+</body>
+
+</html>

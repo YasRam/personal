@@ -124,9 +124,14 @@ let websites = [
 
 
 function contain(i) {
-    let block = `<div class="col-3">
+    let block = `<div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <a href="${websites[i].url}" class="text-decoration-none text-body">
-                <img class="card-img-top w-100 h-50 rounded-3" src="../img/eng/${websites[i].img}" alt="Card image cap">
+                <div class="w-100 h-50 card-img">
+                    <img class="card-img-top w-100 h-100 rounded-3" src="../img/eng/${websites[i].img}" alt="Card image cap">
+                    <div class="my-href">
+                    <p >open me</p>
+                    </div>
+                </div>
                 <div class="card-body text-center ">
                     <p class="card-text">${websites[i].wibsiteName}</p>
                     <p class="card-text">${websites[i].discription}</p>

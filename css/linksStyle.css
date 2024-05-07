@@ -1,0 +1,85 @@
+:root {
+    --facebook: blue;
+    --twitter: #1da1f2;
+    --linkedin: #007dbb;
+    --github: #171515;
+    --gitlab: #fca326;
+    --instagram: #c13584;
+    --gmail: #db4437;
+    --whatsApp: #25d366;
+    --myWhatsApp: #128c7e;
+    --pinterest: #e60023;
+    --my-CV: #ff5a5f;
+    --Snapchat: #fffc00;
+    --YouTube: #ff0000;
+}
+
+body {
+    font-family: "Segoe Script";
+}
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: #8e8686 !important;
+    background-color: white;
+    font-weight: 900px;
+}
+
+/* facebook */
+.facebook:hover a ,.facebook:hover{
+    color: var(--facebook) !important;
+}
+
+/* twitter */
+.twitter:hover,.twitter:hover a{
+    color: var(--twitter) !important;
+}
+
+
+/* linkedin */
+.linkedin:hover,.linkedin:hover a{
+    color: var(--linkedin) !important;
+}
+
+/* github */
+.github:hover,.github:hover a{
+    color: var(--github) !important;
+}
+
+/* gitlab */
+.gitlab:hover,.gitlab:hover a{
+    color: var(--gitlab) !important;
+}
+
+/* instagram */
+.instagram:hover,.instagram:hover a{
+    color: var(--instagram) !important;
+}
+
+/* gmail */
+.gmail:hover,.gmail:hover a{
+    color: var(--gmail) !important;
+}
+
+/* whatsApp */
+.whatsApp:hover,.whatsApp:hover a{
+    color: var(--whatsApp) !important;
+}
+
+/* myWhatsApp */
+.myWhatsApp:hover,.myWhatsApp:hover a{
+    color: var(--myWhatsApp) !important;
+}
+
+/* pinterest */
+.pinterest:hover,.pinterest:hover a{
+    color: var(--pinterest) !important;
+}
+
+/* my-CV */
+.my-CV:hover,.my-CV:hover a{
+    color: var(--my-CV) !important;
+}

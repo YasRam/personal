@@ -2,15 +2,17 @@ body {
     background-color: black;
     color: white;
 }
-
-
-
+/* profile */
 .hire-me {
     border-color: aqua !important;
+    padding: 10px 10px !important;
+    width: fit-content !important;
 }
 
 .hire-me:hover {
     background-color: aqua;
+    border-color: white !important;
+
 }
 
 .hire-me:hover a {
@@ -25,14 +27,6 @@ body {
     background-color: #1c1c1c;
 }
 
-.text-white {
-    /* color: white; */
-}
-
-.intro{
-    /* width: 100%; */
-    /* height: 100vh; */
-}
 hr{
     width: 20%;
     margin: auto;
@@ -45,10 +39,7 @@ hr{
 .bg-offwhite{
 background-color: #e6e6e6;
 }
-/* .img{
-    padding: 0;
-    margin: 0;
-} */
+
 .skill-card{
     background-color: #323232;
     border-radius: 10%;
